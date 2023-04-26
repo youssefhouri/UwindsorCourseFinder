@@ -1,0 +1,45 @@
+/*Customized Style Preferences*/
+
+#tplMainDiv{
+	background-color: #FFFFFF;
+}
+#tplTopDiv{
+	color: #000000;
+}
+#tplLeftDiv{
+	background-color: #FFFFFF;
+}
+#tplCenterDiv{
+	background-color: #FFFFFF;
+}
+#tplRightDiv{
+	background-color: #FFFFFF;
+}
+#tplBottomDiv{
+	background-color: #FFFFFF;
+}
+#bannerTitleContainerDiv{
+	background-color: #FF9900;
+}
+#navMenuContainerDiv a:hover{
+	background-color: #FF9900;
+	color: #FFFFFF;
+}
+#navMenuContainerDiv ul ul li a{
+	background-color: #FF9900;
+	color: #FFFFFF;
+}
+#navMenuContainerDiv ul ul li a:hover{
+	background-color: #005595;
+	color: #FFF;
+}
+#navMenuContainerDiv ul ul li a.spacer:hover{
+	background-color: #FF9900;
+	color: #FFFFFF;
+}
+#bannerMajorTitleDiv{
+	color: #FFFFFF;
+}
+#bannerMinorTitleDiv{
+	color: #FFFFFF;
+}

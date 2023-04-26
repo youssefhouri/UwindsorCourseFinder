@@ -1,0 +1,103 @@
+.white-px{
+background:transparent;
+}
+
+a, a:link, a:visited {
+  text-decoration: underline !important;
+  color: blue;
+}
+  
+    .content a:link:after,
+  .content a:visited:after
+  {
+    content: " (" attr(href) ") ";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+.footer-container{
+  display:none;
+}
+
+*{
+  width: auto; 
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	float: none !important;
+	color: black; 
+  background:white;
+	background: transparent;
+}
+
+body, div, p{
+  font-size:12pt;
+  font-family:Helvetica, sans-serif !important;
+  text-align:justify;
+  width:100%;
+}
+
+p{
+  text-indent:1.5em;
+}
+
+h1.title {
+    display:block;
+    width: 100%;
+    color: black;
+    font-size: 16pt;
+    line-height:auto;
+    font-weight: bold;
+}
+
+.breadcrumb,
+.tabs,
+.header,
+.primary_menu,
+.right-area-shadow,
+.header-image,
+.header-random-images,
+.rightsidebar,
+.right-area-shadow img,
+.content_top,
+.leftsidebar{
+  display:none;
+  float: none;
+  width: 0;
+  background: white;
+}
+
+.wrapper-outter,
+.wrapper-outter .content_container,
+.content_container{
+  background: white;
+  min-width: 650px;
+  width: 650px;
+  float: none;
+  height: 100%;
+  overflow-y: visible;
+  overflow-x: visible;
+  overflow: visible;
+}
+
+.right-area,
+.content-leftside,
+.node-inner,
+.content,
+body.two-sidebars .content-area, 
+body.sidebar-right .content-area,
+.content-area{
+  display:block;
+  float: none;
+  margin-right: 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  overflow-y: visible;
+  overflow-x: visible;
+  overflow: visible;
+  padding:0;
+  background: white;
+  color: black;
+  top: 0;
+  left: 0;
+}

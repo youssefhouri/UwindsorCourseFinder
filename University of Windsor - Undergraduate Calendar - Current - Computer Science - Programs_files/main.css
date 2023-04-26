@@ -1,0 +1,728 @@
+body{
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+	width: auto;
+	height: 100%;
+	overflow: visible;
+	
+}
+h1, h2, h3, h4, h5, table, tr, td, input, textarea{
+	font-family: Tahoma, Arial, Verdana;
+}
+textarea{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 95%;
+}
+form{
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: #005595;
+}
+a:hover{
+	text-decoration: underline;
+	color: #005595;
+}
+table{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 1.0em;
+}
+td{	
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 1.0em;
+}
+#tplMainDiv{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.9em;
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+}
+#tplTopDiv{
+	width: 755px;
+}
+#tplLeftDiv{
+	float: left;
+	width: 200px;
+	min-height: 660px;
+	border-right: 1px solid #000000;
+	padding:0px;
+	margin: 0px;
+	margin-left: 1px;
+	overflow: visible;
+	position: absolute;
+	margin-left: -212px;
+}
+#tplCenterDiv{
+	float: left;
+	width: 540px;
+	min-width: 540px;
+	height: 100%;
+	padding: 0px;
+	display: block
+	margin: 0px;
+	margin-left: 200px;
+	padding-left: 11px;
+	border-left: 1px solid #000;
+	overflow: visible;
+}
+#tplRightDiv{
+	float: left;
+	width: 1px;
+	display:none;
+	height: 100%;
+	min-height: 100%;
+	background-color: #FFBB00;
+}
+#tplBottomDiv{
+	float: none;
+	clear:both;
+	padding-top: 0px;
+	padding-left: 11px;
+	width: 752px;
+	display:none;
+}
+#tplCenterBillboardDiv{
+	clear: left;
+	float: left;
+	height: 100%;
+	width: auto;
+}
+#tplCenterChannelsDiv{
+	width: 295px;
+	float: left;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+#topBannerWholeDiv{
+	float:left;
+	width: 752px;
+	border-bottom:1px solid #000000;	
+}
+#uWindsorLogoImageContainerDiv{
+	float:left; 
+	width:200px;
+	height:90px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #000000;
+}
+#bannerTitleContainerDiv{
+	float:left;
+	font-family: Tahoma, Verdana, Arial;
+	width: 550px;
+	height: 90px;
+	margin: 0px;
+	padding: 0px;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;	
+}
+#defaultBannerImage{
+	float:right;
+}
+#organizationBannerImage{
+	height: 90px;
+	padding: 0px;
+	margin:0px;
+}
+#fullBannerImage{
+	padding: 0px;
+	margin:0px;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+#fullBannerImage img{
+	padding: 0px;
+	width: 751px;
+	margin: 0px;
+}
+#organizationBannerImage img{
+	height: 90px;
+	width: 550px;
+	padding: 0px;
+	margin: 0px;
+}
+#defaultBannerImage img{
+	height: 90px;
+}
+#bannerMajorTitleDiv{
+	position:relative;
+	top:23px;
+	font-size: 1.5em;
+	padding-left: 11px;
+}
+#bannerMinorTitleDiv{
+	font-size: 1.2em;
+	position: relative;
+	top:23px;
+	padding-left: 11px;
+}
+#tplTopMenuDiv{
+	text-align:right;
+	width: 752px;
+	float: left;
+	padding: 0px;
+	background-color: #005595;
+	color: #FFFFFF;
+}
+#topMenuUList{
+	display:inline;
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;
+}
+#topMenuUList li{
+	display:inline;
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+	border-left: 1px solid #FFFFFF;
+}
+#topMenuUList li a{
+	padding-left: 8px;
+	padding-right: 3px;
+	color: #FFFFFF;
+}
+#topMenuUList .lastItem{
+	border-right: 1px solid #000000;
+}
+#topMenuUList li a:hover{
+	text-decoration:none;
+	color: #B2BB1E;
+	
+}
+#rssFeedContainer{
+	background-color: #C6DBFF;
+	font-size: 0.85em;
+	font-family: Tahoma, Verdana, Arial;
+	color: #000066; 
+}
+#rssFeedLabels{
+	font-family: Tahoma, Verdana, Arial;
+	color: #000000; 
+	text-align:left;
+	float:left;
+}
+#rssFeedLabels ul{
+	margin-left: 10px;
+}
+#rssFeedLabels h3{
+	text-align:center; 
+	margin:0px; 
+	padding: 0px;
+}
+#rssFeedLinks, .rssFeedLinks{
+	font-family: Tahoma, Verdana, Arial;
+	color: #CCC; 
+	text-align:left;
+	float:left;
+}	
+.smallBR{
+	font-size: 0.1em;
+}
+#closeRSSFeedContainerDiv{
+	padding-left: 0px;
+	padding-right: 1px;
+	background-color: #C6DBFF;
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+}
+.noBulletUL{
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;	
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+}
+#rssFeedLabels .noBulletUL{
+	font-size: 0.9em;
+}
+#searchToolsDiv{
+	margin: 0px;
+	float:left;
+	clear: both;
+	width: 751px;
+	height: 24px;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+#googleSearchContainerDiv{
+	margin:0px;
+	padding: 0px;
+	float:left;
+	text-align:left;
+	width: 229px;
+	padding: 0px;
+	height: 22px;
+}
+#googleSearchContainerBoxDiv{
+	width: 179px;
+	color: #FFFFFF;
+	font-weight: bold;	
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+	background-color: #005595;
+	padding-left: 11px;
+	padding-top: 3px;
+	height: 21px;
+	float:left;
+	z-index: 20;
+}
+#query{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #E5EAF4;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 115px
+}
+#query:focus{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 115px
+}
+#googleSearchGoImgCurrentDiv{
+	text-align: left;
+	padding: 0px;
+	clear: none;
+	background-color: #B2BB1E;
+	width: 39px;
+	float: right;
+	overflow:visible;
+	height: 24px;
+	
+}
+#googleSearchGoImgITDiv{
+	text-align: left;
+	padding: 0px;
+	clear: none;
+	background-color: #6699CC;
+	width: 39px;
+	float: right;
+	overflow:visible;
+	height: 24px;
+}
+#googleSearchLabel{
+	vertical-align: bottom;
+	margin-top:-5px;
+}
+#askUWindsorSearchCurrentDiv{
+	margin:0px;
+	float: left;
+	width: 522px;
+	padding: 0px;	
+	font-family: Tahoma, Verdana, Arial;
+	background-color: #B2BB1E;
+	color: #FFFFFF;
+	height: 24px;
+}
+#askUWSearchText{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #E8EABB;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 355px
+}
+#askUWSearchText:focus{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 355px
+}
+#askUWindsorSearchCurrentBoxDiv{
+	color: #005595;
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+	background-color: #B2BB1E;
+	padding-left: 11px;
+	padding-top: 3px;
+	height: 21px;
+	float:left;
+	z-index: 20;
+}
+#askUWLabelImg{
+	vertical-align:middle;
+}
+#askUWSearchGoImg{
+	padding-left: 4px;
+	vertical-align:middle;
+	padding-bottom: 3px;
+}
+#askITSearchCurrentDiv{
+	margin:0px;
+	float: left;
+	width: 522px;
+	padding: 0px;	
+	font-family: Tahoma, Verdana, Arial;
+	background-color: #6699CC;
+	color: #FFFFFF;
+	height: 24px;
+}
+#askITSearchText{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #E8F1F8;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 355px;
+}
+#askITSearchText:focus{
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	padding-left: 2px;	
+	padding-top: 0px;
+	border: 1px solid #666666;
+	height: 15px;
+	width: 355px
+}
+#askITSearchCurrentBoxDiv{
+	color: #000099;
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+	background-color: #6699CC;
+	padding-left: 11px;
+	padding-top: 3px;
+	height: 21px;
+	float:left;
+	z-index: 20;
+}
+#askITLabelImg{
+	vertical-align:middle;
+}
+#askITSearchGoImg{
+	padding-left: 3px;
+	vertical-align:middle;
+	padding-bottom: 1px;
+}
+#contactInfo{
+	padding-left: 11px;
+	font-size: 0.8em;
+}
+.tplStandardText{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.8em;
+}
+.tplSmallLightText{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.7em;
+	color: #999999;
+	text-align:left;
+	padding-left: 11px;
+}
+.tplSmallWhiteText{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.7em;
+	color: #FFFFFF;
+	text-align:left;
+	padding-left: 11px;
+}
+#navMenuContainerDiv{
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+#quickLinksTitle{
+	font-weight:bold;
+	color: #FFFFFF;
+	background-color: #005595;
+	font-size: 0.9em;
+	padding:0px;
+	margin-top: 33px;
+	padding-left: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 189px;
+	font-family: Tahoma, Verdana, Arial;
+}
+.QuickLinksDetail{
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-left: 11px;
+	font-family: Tahoma, Verdana, Arial;
+	color: #000000;
+}
+.quickLinksUL{
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;	
+	padding-top: 11px;
+	font-family: Tahoma, Verdana, Arial;
+}
+.quickLinksLI{
+	list-style-type:none;
+	padding-left: 11px;	
+	font-size: 0.8em;
+}
+.quickLinksLI a{
+	color: #000000;
+	text-decoration: none;
+}
+.quickLinksLI a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+.rssLabelDiv{
+	float: left;
+	clear: none;
+	width: 95px;
+	text-align: right;
+}
+.rssLinkDiv{
+	padding-left: 11px;
+	float: left;
+	clear: right;
+}
+#mailToFriendContainer{
+	background-color: #C6DBFF;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.8em;
+}
+.eMailContainerLabels{
+	width: 125px;
+	float: left;
+	clear: none;
+	text-align: right;
+}
+.eMailContainerInput{
+	width: 180px;
+	padding-left: 11px;
+	float: left;
+	clear: right;
+	text-align: left;
+}
+.eMailContainerInput textarea{
+	width: 180px;
+	font-family: Tahoma, Verdana, Arial;
+}
+#mailToFriendContainer h3{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+/**************** menu coding *****************/
+#navMenuContainerDiv{
+	width: 12em;
+	background: #FFFFFF;
+	padding-left: 11px;
+}
+
+#navMenuContainerDiv ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navMenuContainerDiv a, #navMenuContainerDiv h2{
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+	display: block;
+	border: 0px;
+	border-style: solid;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 2px;
+}
+
+#navMenuContainerDiv h2{
+	color: #FFFFFF;
+	background: #000;
+	text-transform: uppercase;
+}
+
+#navMenuContainerDiv a{
+	color: #000000;
+	background: #FFFFFF;
+	text-decoration: none;
+}
+#navMenuContainerDiv img{
+	position: absolute;
+	top: 2px;
+	left: 165px;
+}
+
+#navMenuContainerDiv a.spacer:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	cursor: default;
+}
+
+#navMenuContainerDiv li{
+	position: relative;
+}
+
+#navMenuContainerDiv ul ul {
+	position: absolute;
+	top: 0px;
+	left: 100%;
+	width: 100%;
+	border: 1px solid #000000;
+	border-bottom: 0px;
+}
+#navMenuContainerDiv ul ul li{
+	border-bottom: 1px solid #000000;
+}
+div#navMenuContainerDiv ul ul , div#navMenuContainerDiv ul li:hover ul ul{
+	display:none;
+}
+
+div#navMenuContainerDiv ul li:hover ul, div#navMenuContainerDiv ul ul li:hover ul{
+	display:block;
+}
+#wsgLight{
+	position: absolute;
+	background-color: #000000;
+}
+#wsgLightContentContainer{
+	position: absolute;
+	background-color: #000000;
+}
+.channelsList{
+	font-weight: normal;
+	list-style-type: none;
+	margin: 0px;
+	margin-left: 11px;
+	color: #005595;
+	padding: 0px;
+}
+.channelsList li a{
+	color: #005595;
+}	
+#didYouKnowText{
+	font-weight: normal;
+	color: #000000;
+	
+}
+/* WSG LIGHT START */
+#wsgLight{
+	position: absolute;
+	background-color: #000000;
+}
+#wsgLightContentContainer{
+	position: absolute;
+	background-color: #000000;
+}
+.rssLabelDiv{
+	float: left;
+	clear: none;
+	width: 95px;
+	text-align: right;
+}
+.rssLinkDiv{
+	padding-left: 11px;
+	float: left;
+	clear: right;
+}
+#mailToFriendContainer{
+	background-color: #005695;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.9em;
+}
+.mailButton{
+	background-color: #005595;
+	color: #FFF;
+	border-top: 1px solid #80AACA;
+	border-left: 1px solid #80AACA;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-family: Tahoma, Verdana, Arial;
+}
+.eMailContainerLabels{
+	width: 125px;
+	float: left;
+	clear: none;
+	text-align: right;
+}
+.eMailContainerInput{
+	width: 180px;
+	padding-left: 11px;
+	float: left;
+	clear: right;
+	text-align: left;
+}
+#mailToFriendContainer h3{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#rssFeedContainer{
+	background-color: #C6DBFF;
+	font-size: 0.80em;
+	font-family: Tahoma, Verdana, Arial;
+	color: #FFF; 
+}
+#rssFeedLabels{
+	font-family: Tahoma, Verdana, Arial;
+	color: #FFF; 
+	text-align:left;
+	float:left;
+}
+#rssFeedLabels ul{
+	margin-left: 10px;
+	color: #FFF; 
+}
+#rssFeedLabels h3{
+	text-align:center; 
+	margin:0px; 
+	padding: 0px;
+	color: #FFF; 
+}
+#rssFeedLinks{
+	font-family: Tahoma, Verdana, Arial;
+	color: #DDD; 
+	text-align:left;
+	float:left;
+}	
+.smallBR{
+	font-size: 0.1em;
+}
+#closeRSSFeedContainerDiv{
+	padding-left: 0px;
+	padding-right: 1px;
+	background-color: #C6DBFF;
+	font-size: 0.8em;
+	font-family: Tahoma, Verdana, Arial;
+}
+.noBulletUL{
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;	
+	font-family: Tahoma, Verdana, Arial;
+}
+#wsgLightContentContainer a{
+	color: #CCC;
+	text-decoration: none;
+}
+#wsgLightContentContainer a:hover{
+	color: #FFF;
+	text-decoration: underline;
+}
+#wsgLightContentContainer .noUnderLineA{
+	text-decoration:none;
+}
+#wsgLightContentContainer .noUnderLineA:hover{
+	text-decoration:none;
+}
+/* WSG LIGHT END */

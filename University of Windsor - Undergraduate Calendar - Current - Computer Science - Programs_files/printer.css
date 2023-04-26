@@ -1,0 +1,19 @@
+#tplTopMenuDiv{
+	display: none;
+}
+#topBannerWholeDiv{
+	display:none;
+}
+#searchToolsDiv{
+	display: none;
+}
+#tplLeftDiv{
+	display: none;
+}
+#tplCenterDiv{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Times New Roman, Serif, Georgian;
+}

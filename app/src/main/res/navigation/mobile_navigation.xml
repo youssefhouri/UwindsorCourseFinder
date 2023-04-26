@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.uwindsorcoursefinder.ui.home.HomeFragment"
+        android:label="@string/recommended"
+        tools:layout="@layout/recommended_tab" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.uwindsorcoursefinder.ui.dashboard.DashboardFragment"
+        android:label="@string/all_courses"
+        tools:layout="@layout/all_courses_tab" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.uwindsorcoursefinder.ui.notifications.NotificationsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/settings_tab" />
+</navigation>

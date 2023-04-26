@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Uwindsor Course Finder</string>
+    <string name="recommended">Recommended</string>
+    <string name="all_courses">All Courses</string>
+    <string name="settings">Settings</string>
+
+    <string name="choose_degree_startup">Welcome to the Uwindsor course explorer!<br></br> Please choose the degree you are enrolled in:</string>
+    <string name="choose_degree">Please choose the degree you are enrolled in:</string>
+    <string name="choose_year">Please choose the year you are currently in:</string>
+
+    <string-array name="degrees">
+        <item>Computer Science Honours</item>
+        <item>Computer Science Applied Computing</item>
+        <item>Computer Science General</item>
+        <item>Computer Science Honours w/ Soft Eng Spec</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>year 1</item>
+        <item>year 2</item>
+        <item>year 3</item>
+        <item>year 4</item>
+    </string-array>
+
+    <string-array name="courses">
+        <item><b>COMP 1000</b> - Intro to algorithms</item>
+        <item><b>COMP 3300</b> - Operating systems</item>
+        <item><b>COMP 1000</b> - Intro to algorithms</item>
+        <item><b>COMP 3300</b> - Operating systems</item>
+        <item><b>COMP 1000</b> - Intro to algorithms</item>
+        <item><b>COMP 3300</b> - Operating systems</item>
+        <item><b>COMP 1000</b> - Intro to algorithms</item>
+        <item><b>COMP 3300</b> - Operating systems</item>
+    </string-array>
+</resources>
